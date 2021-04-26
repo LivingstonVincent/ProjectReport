@@ -1,0 +1,98 @@
+/*
+    Name: Livingston Vincent
+    Date: 4/25/2021
+    Course: CIS 155
+    Instructor: Linda Epps
+    Assignment: M02: Project V1 - Basic HTML and CSS
+*/   
+                                                  /*M1LO8*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(background.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{                                         /*M1LO13*/
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 10px 50px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+                                                /*M1LO12*/
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;                      /*M2LO4*/
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Copperplate', fantasy;
+	color: white;                            /*M2LO15*/
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+blockquote {
+    position: absolute;
+	left: 15%;
+	top: 35%;
+	transform: translate(-50%, -50%);
+	margin: 0em 15px;
+    font-size: 18px;
+	font-family: 'Copperplate', fantasy;
+	color: white;
+}
+.follow{                                         /*M1LO13*/
+	position: fixed;
+	height: 110px;
+	width: 10%;
+	top: 125%;
+	left: 125%;
+	background: rgba(0,0,0,0.4);
+}
+.follow ol li {
+	font-size: 20px;
+	font-family: 'Copperplate', fantasy;
+	color: white;                            /*M2LO15*/
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
